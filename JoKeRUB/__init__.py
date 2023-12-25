@@ -8,9 +8,9 @@ from .core.session import l313l
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.3"
-__license__ = "كـتابة وتـعديل فريـق الجوكر"
-__author__ = "الجوكر <https://T.ME/Jepthon>"
-__copyright__ = "AlJOKER TEAM (C) 2021 - 2023  " + __author__
+__license__ = "كـتابة وتـعديل فريـق عفرتو"
+__author__ = "عفرتو <https://T.ME/T_Y_E_X>"
+__copyright__ = "Afrotoo TEAM (C) 2021 - 2023  " + __author__
 
 l313l.version = __version__
 l313l.tgbot.version = __version__
@@ -21,8 +21,8 @@ StartTime = time.time()
 JEPVERSION = "3.1.3"
 
 
-if Config.UPSTREAM_REPO == "jepthoniq":
-    UPSTREAM_REPO_URL = "https://github.com/jepthoniq/jepthon"
+if Config.UPSTREAM_REPO == "afrotoo66":
+    UPSTREAM_REPO_URL = "https://github.com/afrotoo66/jepthon"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
