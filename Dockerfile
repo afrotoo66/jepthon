@@ -1,7 +1,7 @@
-FROM jepthoniq/jepthon:slim-buster
+FROM afrotoo66/jepthon:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/jepthoniq/jepthon.git /root/JoKeRUB
+RUN git clone https://github.com/afrotoo66/jepthon.git /root/JoKeRUB
 #working directory 
 WORKDIR /root/JoKeRUB
 
