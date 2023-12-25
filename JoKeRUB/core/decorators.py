@@ -22,7 +22,7 @@ def check_owner(func):
         else:
             HELP_TEXT = (
                 gvarstatus("HELP_TEXT")
-                or "هذا الخيار ليس لك يجب عليك تنصيب سورس الجوكر بنفسك  @jepthon"
+                or "هذا الخيار ليس لك يجب عليك تنصيب سورس عفرتو بنفسك  @T_Y_E_X"
             )
             await c_q.answer(
                 HELP_TEXT,
